@@ -5,7 +5,7 @@ while True:
 # Je demande quelle phrase l'utilisateur veut.
  chaine = input('Écriver une phrase.')
 # Si on ecrit rien et on presse enter le programme se ferme.
- if not chaine:
+ if chaine == '':
   print("Vous avez quitter le programme.")
   exit()
 # Le programme print le nombre de mot dans la phrase.
